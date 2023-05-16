@@ -1,0 +1,281 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.menu input {
+  margin-left: 90px;
+}
+
+.us_icon {
+  margin-left: 50px;
+}
+
+.bell_icon {
+  margin-left: 50px;
+}
+
+.menu_left {
+  /* padding: 5px; */
+  margin-left: 5px;
+  /* margin-top: 15px; */
+}
+
+.menu_left li {
+  margin-left: 5px;
+}
+
+
+/* -----card start */
+
+.card-item {
+  max-width: 250px;
+  border: 1px solid #dee2e6;
+}
+
+.card-item .card-details {
+  padding: 30px;
+}
+
+
+.btn_card a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #212529;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.card-item {
+  background-color: cyan;
+  /* color: white; */
+}
+
+
+
+.card_head h1 {
+  font-size: 22px;
+}
+
+.card_para p {
+  font-size: 15px;
+}
+
+.main_sale {
+  display: flex;
+}
+
+
+
+.sale_head p {
+  font-size: 15px;
+}
+
+.card_sale {
+  margin-top: 15px;
+}
+
+.sale_icon i {
+  font-size: 18px;
+  margin-left: 3px;
+  margin-top: 5px;
+  color: white;
+}
+
+.sale_icon h4 {
+  font-size: 20px;
+  margin-left: 3px;
+}
+
+.sale_icon p {
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 3px;
+}
+
+.sale_icon span {
+  font-size: 12px;
+  color: blue;
+  margin-left: 3px;
+}
+
+.sale_icon {
+  border: 1px solid grey;
+  border-radius: 12px;
+  height: 110px;
+  width: 120px;
+  background: #ea4c89;
+}
+
+
+
+.visitor {
+  margin-left: 80px;
+}
+
+.total h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.costemer_sat h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.targer_real h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.top_pro h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.sale_map h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.vol_ser h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* -----media Query */
+
+
+@media only screen and (min-width: 375px) {
+  .us_icon_resp span{
+    font-size: 9px;
+  }
+
+  .menu_left_resp {
+    font-size: 10px;
+  }
+
+  .dabang_resp {
+    font-size: 11px !important;
+    font-weight: 700 !important;
+  }
+
+  .top_side_nav_resp {
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+
+  .right_slider_resp {
+    margin-left: 60px;
+  }
+
+  .new_customer_resp {
+    /* display: none; */
+  }
+
+  .visitor_resp {
+    margin-left: 30px !important;
+  }
+
+  .visitor_resp h2 {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .img_resp {
+    height: 6rem !important;
+    width: 5rem !important;
+  }
+
+  .btn_card_resp {
+    display: none;
+  }
+
+  .icon_card_resp i {
+    font-size: 14px;
+  }
+
+  .card_head_resp h1 {
+    font-size: 10px;
+    margin-left: -10px;
+  }
+
+  .card_para_resp p {
+    font-size: 8px;
+    margin-top: 5px;
+    margin-left: -10px;
+  }
+
+  .item_resp {
+    max-width: 250px;
+  }
+
+  .card-item_resp{
+    width: 100px;
+  }
+
+  .card-details_resp{
+    padding: 15px;
+  }
+
+  .total_reven_resp{
+    margin-left: 10px;
+  }
+
+
+  .total_resp h2{
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .top_product_resp{
+    margin-left: 10px;
+  }
+
+  .top_pro_resp h2{
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  .dashboard_headinggg_resp h2{
+    font-size: 13px ;
+     
+  }
+
+
+}
